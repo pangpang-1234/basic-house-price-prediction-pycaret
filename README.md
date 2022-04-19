@@ -62,3 +62,5 @@ evaluate need 1 argument that is model, for example
 ```
 evaluate_model(best_model)
 ```
+
+Thanks to Nontapath Taspan for sharing Pycaret Regression knowledge
