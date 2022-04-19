@@ -9,11 +9,11 @@
 I use dataset from house price prediction kaggle competition datasets to explore Pycaret features. In this project I use Pycaret Regression to predict house price from previous data.I straightforward to use Pycaret, so there are no preprocess or explore data in this project. You can find Pycaret tutorials here <a href='https://pycaret.gitbook.io/docs/get-started/tutorials'>Pycaret Tutorials</a>
 
 ## Setup
-Install Pycaret package
+Firstly, install pycaret full package with this command
 ```
 pip install pycaret[full]
 ```
-Then import pycaret regression and necessary libraries  
+Then import pycaret regression and other necessary libraries  
 ```
 from pycaret.regression import *
 import pandas as pd
