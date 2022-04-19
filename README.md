@@ -25,7 +25,7 @@ root_path = '/content/drive/Shareddrives/SuperAI/Kaggle/home-data-for-ml-course/
 data = pd.read_csv('/content/drive/Shareddrives/SuperAI/Kaggle/home-data-for-ml-course/train.csv')
 test_data = pd.read_csv('/content/drive/Shareddrives/SuperAI/Kaggle/home-data-for-ml-course/test.csv')
 ```
-Setup data before find best model
+Setup data before finding best model
 1. data = train dataset
 2. target = what we want to predict
 3. ignore_features = features that Pycaret will not use to train model
