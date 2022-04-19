@@ -49,7 +49,7 @@ Predict house price model need 2 arguments 1.estimator = model 2.data = test dat
 out = predict_model(estimator=loaded_model, data=test_data)
 out
 ```
-## Save, load and evaluate model
+## Save load and evaluate model
 Save model need 2 arguments 1.model 2.path to save, for example
 ```
 save_model(best_model,'/content/b_model')
