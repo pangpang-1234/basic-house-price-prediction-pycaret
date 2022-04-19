@@ -54,11 +54,11 @@ Save model need 2 arguments 1.model 2.path to save, for example
 ```
 save_model(best_model,'/content/b_model')
 ```
-load model need 1 argument that is path of model, for excample
+load model need 1 argument that is model path, for excample
 ```
 loaded_model=load_model('/content/b_model')
 ```
-evaluate need 1 argument that is model or path of model, for example
+evaluate need 1 argument that is model, for example
 ```
 evaluate_model(best_model)
 ```
