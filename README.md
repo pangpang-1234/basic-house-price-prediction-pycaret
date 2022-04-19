@@ -39,6 +39,7 @@ demo = setup(data = data, target = 'SalePrice',
                    remove_multicollinearity = True,
                    ignore_low_variance = True, combine_rare_levels = True) 
 ```
+## Compare model
 Compare to find best model (if you don't have much time, you can delete turbo=False to accelerate compare models)
 ``` 
 best_model = compare_models(sort='rmse', turbo=False)
